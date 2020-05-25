@@ -82,7 +82,7 @@ class View : Form {
     bool mouseDown = false;
     
     public View() {
-        Text = "synth";
+        Text = "sine-synth";
         ClientSize = new Size(Keys * KeyWidth + 2 * Border, KeyHeight + 2 * Border);
         StartPosition = FormStartPosition.CenterScreen;
 
